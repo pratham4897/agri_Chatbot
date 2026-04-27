@@ -1,0 +1,357 @@
+{
+  "wheat": {
+    "soil": "Well drained loamy soil",
+    "rainfall": "450-650 mm",
+    "temperature": "15-25°C",
+    "diseases": {
+      "rust": {
+        "symptoms": "Orange-brown to reddish-brown pustules on leaves, stems, and spikes",
+        "cause": "Fungal infection (Puccinia spp.)",
+        "solution": "Spray propiconazole or tebuconazole fungicide; use resistant varieties"
+      },
+      "smut": {
+        "symptoms": "Black powdery mass replacing grains in the ear",
+        "cause": "Seed-borne fungus (Ustilago tritici for loose smut)",
+        "solution": "Use treated seeds (carbendazim or carboxin) before sowing; rogue infected plants"
+      },
+      "powdery_mildew": {
+        "symptoms": "White powdery patches on leaves and stems",
+        "cause": "Fungal infection in cool humid climate (Blumeria graminis)",
+        "solution": "Spray sulfur-based fungicide or propiconazole"
+      }
+    }
+  },
+  "rice": {
+    "soil": "Clay or loamy soil with good water retention",
+    "rainfall": "1000-2000 mm",
+    "temperature": "20-35°C",
+    "diseases": {
+      "blast": {
+        "symptoms": "Diamond or spindle-shaped spots with gray center and brown margins on leaves; neck blast causes whiteheads",
+        "cause": "Fungus Magnaporthe oryzae",
+        "solution": "Spray tricyclazole or isoprothiolane; use resistant varieties"
+      },
+      "bacterial_blight": {
+        "symptoms": "Yellowing and drying of leaves starting from margins; water-soaked lesions",
+        "cause": "Bacteria Xanthomonas oryzae pv. oryzae",
+        "solution": "Use copper oxychloride or streptocycline; plant resistant varieties"
+      },
+      "sheath_blight": {
+        "symptoms": "Oval or irregular brown lesions on leaf sheaths near water line",
+        "cause": "Fungal infection (Rhizoctonia solani)",
+        "solution": "Spray validamycin or hexaconazole; maintain proper spacing and avoid excess nitrogen"
+      }
+    }
+  },
+  "tomato": {
+    "soil": "Well drained sandy loam soil",
+    "rainfall": "600-800 mm",
+    "temperature": "20-30°C",
+    "diseases": {
+      "early_blight": {
+        "symptoms": "Dark brown spots with concentric rings on older leaves",
+        "cause": "Fungus Alternaria solani",
+        "solution": "Spray mancozeb or chlorothalonil"
+      },
+      "late_blight": {
+        "symptoms": "Water-soaked dark spots on leaves turning brown; white fungal growth on underside in humid conditions",
+        "cause": "Oomycete Phytophthora infestans",
+        "solution": "Use metalaxyl or ridomil MZ; destroy infected debris"
+      },
+      "leaf_curl": {
+        "symptoms": "Leaves curl upward, become yellow and stunted",
+        "cause": "Virus (Tomato leaf curl virus) spread by whiteflies",
+        "solution": "Control whiteflies with neem oil or imidacloprid; use resistant varieties"
+      }
+    }
+  },
+  "potato": {
+    "soil": "Sandy loam soil",
+    "rainfall": "500-700 mm",
+    "temperature": "15-20°C",
+    "diseases": {
+      "late_blight": {
+        "symptoms": "Dark brown to black patches on leaves with white fungal growth on underside",
+        "cause": "Oomycete Phytophthora infestans",
+        "solution": "Use metalaxyl or mancozeb-based spray; destroy cull piles"
+      },
+      "early_blight": {
+        "symptoms": "Circular dark brown spots with concentric rings on older leaves",
+        "cause": "Fungus Alternaria solani",
+        "solution": "Use chlorothalonil or mancozeb"
+      }
+    }
+  },
+  "maize": {
+    "soil": "Well drained loamy soil",
+    "rainfall": "500-800 mm",
+    "temperature": "18-27°C",
+    "diseases": {
+      "leaf_blight": {
+        "symptoms": "Large elongated grayish lesions on leaves",
+        "cause": "Fungal infection (Exserohilum turcicum or Bipolaris maydis)",
+        "solution": "Spray mancozeb; use resistant hybrids"
+      },
+      "rust": {
+        "symptoms": "Reddish-brown to orange pustules on leaves",
+        "cause": "Fungus Puccinia sorghi",
+        "solution": "Use triazole fungicide spray if severe"
+      }
+    }
+  },
+  "cotton": {
+    "soil": "Black cotton soil",
+    "rainfall": "600-1200 mm",
+    "temperature": "21-30°C",
+    "diseases": {
+      "boll_rot": {
+        "symptoms": "Rotting of cotton bolls with discoloration",
+        "cause": "Fungal infection (various pathogens)",
+        "solution": "Improve drainage; spray carbendazim or mancozeb"
+      },
+      "leaf_curl": {
+        "symptoms": "Upward or downward curling of leaves with vein thickening",
+        "cause": "Virus transmitted by whitefly",
+        "solution": "Control whiteflies with neem oil or insecticides; rogue infected plants"
+      }
+    }
+  },
+  "onion": {
+    "soil": "Sandy loam soil",
+    "rainfall": "500-700 mm",
+    "temperature": "13-24°C",
+    "diseases": {
+      "purple_blotch": {
+        "symptoms": "Purple to brown spots with concentric rings on leaves",
+        "cause": "Fungal infection (Alternaria porri)",
+        "solution": "Use mancozeb or chlorothalonil spray"
+      },
+      "downy_mildew": {
+        "symptoms": "Greyish-purple fuzzy growth on leaves",
+        "cause": "Fungus Peronospora destructor",
+        "solution": "Spray metalaxyl or ridomil"
+      }
+    }
+  },
+  "chili": {
+    "soil": "Well drained sandy loam soil",
+    "rainfall": "600-800 mm",
+    "temperature": "20-30°C",
+    "diseases": {
+      "anthracnose": {
+        "symptoms": "Sunken dark spots with pinkish spore masses on fruits",
+        "cause": "Fungal infection (Colletotrichum spp.)",
+        "solution": "Use carbendazim or mancozeb"
+      },
+      "leaf_spot": {
+        "symptoms": "Small circular brown spots on leaves",
+        "cause": "Fungus (Cercospora or Alternaria)",
+        "solution": "Spray mancozeb or copper-based fungicide"
+      }
+    }
+  },
+  "soybean": {
+    "soil": "Loamy soil",
+    "rainfall": "500-900 mm",
+    "temperature": "20-30°C",
+    "diseases": {
+      "rust": {
+        "symptoms": "Brown to reddish lesions or pustules on leaves",
+        "cause": "Fungus Phakopsora pachyrhizi",
+        "solution": "Use triazole fungicide (e.g., propiconazole)"
+      },
+      "bacterial_pustule": {
+        "symptoms": "Small raised yellowish-green spots turning brown",
+        "cause": "Bacteria Xanthomonas axonopodis pv. glycines",
+        "solution": "Use resistant varieties; avoid overhead irrigation"
+      }
+    }
+  },
+  "sugarcane": {
+    "soil": "Deep rich loamy soil",
+    "rainfall": "1200-1500 mm",
+    "temperature": "20-35°C",
+    "diseases": {
+      "red_rot": {
+        "symptoms": "Red discoloration with white patches inside the stem",
+        "cause": "Fungal infection (Colletotrichum falcatum)",
+        "solution": "Use disease-free setts; treat setts with carbendazim"
+      },
+      "smut": {
+        "symptoms": "Black whip-like structure emerging from the top",
+        "cause": "Fungus Sporisorium scitamineum",
+        "solution": "Use resistant varieties; rogue infected plants"
+      }
+    }
+  },
+  "mustard": {
+    "soil": "Well drained loamy soil",
+    "rainfall": "350-600 mm",
+    "temperature": "10-25°C",
+    "diseases": {
+      "white_rust": {
+        "symptoms": "White blister-like pustules on leaves and stems",
+        "cause": "Fungal infection (Albugo candida)",
+        "solution": "Spray metalaxyl or ridomil"
+      },
+      "alternaria_blight": {
+        "symptoms": "Dark brown to black spots with concentric rings on leaves",
+        "cause": "Alternaria fungus",
+        "solution": "Use mancozeb spray"
+      }
+    }
+  },
+  "groundnut": {
+    "soil": "Sandy loam soil",
+    "rainfall": "500-1000 mm",
+    "temperature": "20-30°C",
+    "diseases": {
+      "tikka_disease": {
+        "symptoms": "Brown to black leaf spots (early and late leaf spot)",
+        "cause": "Fungal infection (Cercospora spp.)",
+        "solution": "Spray chlorothalonil or carbendazim"
+      },
+      "rust": {
+        "symptoms": "Orange to reddish-brown pustules on leaves",
+        "cause": "Fungal infection (Puccinia arachidis)",
+        "solution": "Use triazole fungicide"
+      }
+    }
+  },
+  "barley": {
+    "soil": "Loamy soil",
+    "rainfall": "400-600 mm",
+    "temperature": "12-25°C",
+    "diseases": {
+      "leaf_rust": {
+        "symptoms": "Brown to orange pustules on leaves",
+        "cause": "Fungal infection (Puccinia hordei)",
+        "solution": "Spray propiconazole"
+      },
+      "powdery_mildew": {
+        "symptoms": "White powdery growth on leaves",
+        "cause": "Fungal infection (Blumeria graminis)",
+        "solution": "Use sulfur-based fungicide"
+      }
+    }
+  },
+  "banana": {
+    "soil": "Deep rich loamy soil",
+    "rainfall": "1000-2000 mm",
+    "temperature": "25-35°C",
+    "diseases": {
+      "panama_disease": {
+        "symptoms": "Yellowing and wilting of leaves starting from older ones; vascular discoloration",
+        "cause": "Fungus Fusarium oxysporum f.sp. cubense",
+        "solution": "Use resistant varieties (e.g., Cavendish); avoid infected soil"
+      },
+      "black_sigatoka": {
+        "symptoms": "Dark streaks turning into large necrotic spots on leaves",
+        "cause": "Fungal infection (Mycosphaerella fijiensis)",
+        "solution": "Spray propiconazole or mancozeb"
+      }
+    }
+  },
+  "mango": {
+    "soil": "Well drained loamy soil",
+    "rainfall": "750-2500 mm",
+    "temperature": "24-30°C",
+    "diseases": {
+      "anthracnose": {
+        "symptoms": "Black spots on leaves, flowers, and fruits; fruit rot",
+        "cause": "Fungal infection (Colletotrichum gloeosporioides)",
+        "solution": "Spray carbendazim or mancozeb before flowering"
+      },
+      "powdery_mildew": {
+        "symptoms": "White powdery coating on flowers and young leaves",
+        "cause": "Fungus Oidium mangiferae",
+        "solution": "Use sulfur fungicide or wettable sulfur"
+      }
+    }
+  },
+  "grapes": {
+    "soil": "Sandy loam soil",
+    "rainfall": "600-800 mm",
+    "temperature": "15-30°C",
+    "diseases": {
+      "downy_mildew": {
+        "symptoms": "Yellow patches on upper leaf surface with white downy growth underneath",
+        "cause": "Fungal infection (Plasmopara viticola)",
+        "solution": "Spray metalaxyl or copper-based fungicide"
+      },
+      "powdery_mildew": {
+        "symptoms": "White powdery growth on leaves, shoots, and berries",
+        "cause": "Fungus Erysiphe necator",
+        "solution": "Use sulfur fungicide"
+      }
+    }
+  },
+  "cabbage": {
+    "soil": "Well drained fertile soil",
+    "rainfall": "600-1000 mm",
+    "temperature": "15-20°C",
+    "diseases": {
+      "black_rot": {
+        "symptoms": "V-shaped yellow lesions on leaf margins; black veins",
+        "cause": "Bacteria Xanthomonas campestris",
+        "solution": "Use disease-free seeds; hot water seed treatment"
+      },
+      "downy_mildew": {
+        "symptoms": "Greyish fungal growth on underside of leaves",
+        "cause": "Fungus Peronospora parasitica",
+        "solution": "Use metalaxyl or copper fungicide"
+      }
+    }
+  },
+  "cauliflower": {
+    "soil": "Well drained loamy soil",
+    "rainfall": "600-800 mm",
+    "temperature": "15-20°C",
+    "diseases": {
+      "black_rot": {
+        "symptoms": "Yellowing starting from leaf margins with black veins",
+        "cause": "Bacterial infection (Xanthomonas campestris)",
+        "solution": "Use copper-based spray; disease-free seeds"
+      },
+      "club_root": {
+        "symptoms": "Swollen and distorted roots",
+        "cause": "Soil fungus Plasmodiophora brassicae",
+        "solution": "Maintain soil pH above 7.0 (lime the soil); crop rotation"
+      }
+    }
+  },
+  "pea": {
+    "soil": "Loamy soil",
+    "rainfall": "400-600 mm",
+    "temperature": "13-18°C",
+    "diseases": {
+      "powdery_mildew": {
+        "symptoms": "White powdery coating on leaves and pods",
+        "cause": "Fungal infection (Erysiphe pisi)",
+        "solution": "Spray sulfur fungicide or wettable sulfur"
+      },
+      "root_rot": {
+        "symptoms": "Root decay, yellowing, and wilting of plants",
+        "cause": "Soil fungi (Fusarium or Rhizoctonia)",
+        "solution": "Improve drainage; seed treatment with fungicide"
+      }
+    }
+  },
+  "lentil": {
+    "soil": "Well drained loamy soil",
+    "rainfall": "300-500 mm",
+    "temperature": "18-30°C",
+    "diseases": {
+      "rust": {
+        "symptoms": "Orange to brown pustules on leaves and stems",
+        "cause": "Fungal infection (Uromyces fabae)",
+        "solution": "Spray mancozeb or propiconazole"
+      },
+      "wilt": {
+        "symptoms": "Sudden wilting and yellowing of plants",
+        "cause": "Fungus Fusarium oxysporum",
+        "solution": "Use resistant varieties; seed treatment"
+      }
+    }
+  }
+}
